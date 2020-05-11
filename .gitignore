@@ -56,6 +56,9 @@ coverage.xml
 *.pot
 
 # Django stuff:
+static/
+posts/static/
+media/
 *.log
 local_settings.py
 db.sqlite3
@@ -109,6 +112,11 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.idea
+.idea/
+.DS_Store
+.AppleDouble
+.LSOverride
 
 # Spyder project settings
 .spyderproject
